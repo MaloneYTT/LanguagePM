@@ -1,0 +1,22 @@
+{
+	"PREFIX": "§cRush§4Unity §8»§r",
+	"localeCode": "en_US",
+	"name": "English",
+	
+	"no.perms": "§cYou don't have the permission to use this§7!",
+	
+	"lobby.no.perms": "§cYou don't have the permission to use this§7!",
+	
+	"lobby.teleporter.ui.title": "{PREFIX} §l§6Teleporter",
+	"lobby.teleporter.ui.content": "§aSelect an Gametype§7!",
+	"lobby.teleporter.button.bwcw": "§cBedWars §8/§4 ClanWars",
+	
+	"lobby.ui.select.gadget": "{PREFIX} §eSelect an §5Gadget§7!",
+	
+	"maintenance.ui.content": "{PREFIX}\n\n§l§cWe are currently in §eMaintenance§r§7!\n§l§cPlease try it again later§r§7!",
+	"maintenance.join.message": "{PREFIX} §cYou have successfully entered the server during §emaintenance§7!",
+	"maintenance.toggle.on": "{PREFIX} §aYou have §eactivated §athe §emaintenance§7-§amode§7!",
+	"maintenance.toggle.off": "{PREFIX} §cYou have §edeactivated §cthe §emaintenance§7-§amode§7!",
+	"maintenance.kick.reason": "{PREFIX} §cYou have been kicked from this Server§7!\n§l§4This server is in §emaintenance§7-§amode§r§7!"
+	
+}
