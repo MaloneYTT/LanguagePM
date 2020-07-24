@@ -16,9 +16,13 @@
 	"lobby.hide.button.show": "§aShow §ePlayers",
 	"lobby.hide.button.hide": "§4Hide §ePlayers",
 	
+	"lobby.ui.title.nick": "{PREFIX} §l§5Nick",
+	"lobby.ui.content.nick": "§aActivate §7or §cDeactivate §eAutonick§7!",
+	"lobby.ui.button.nick.enable": "§aEnable §eAutonick",
+	"lobby.ui.button.nick.disable": "§4Disable §eAutonick",
+	
 	"lobby.gadget.ui.title": "{PREFIX} §l§5Gadgets",
 	"lobby.ui.content.select.gadget": "{PREFIX} §eSelect an §5Gadget§7!",
-	
 	"lobby.gadget.ui.button.particle": "§eParticle",
 	
 	"maintenance.ui.content": "{PREFIX}\n\n§l§cWe are currently in §eMaintenance§r§7!\n§l§cPlease try it again later§r§7!",
