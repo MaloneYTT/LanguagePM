@@ -11,6 +11,11 @@
 	"lobby.teleporter.ui.content": "§aSelect an Gametype§7!",
 	"lobby.teleporter.button.bwcw": "§cBedWars §8/§4 ClanWars",
 	
+	"lobby.hide.ui.title": "{PREFIX} §l§ePlayer§7-§eHider",
+	"lobby.hide.ui.content": "§cHide §7or §aShow §7all §ePlayers§7!",
+	"lobby.hide.button.show": "§aShow §ePlayers",
+	"lobby.hide.button.hide": "§4Hide §ePlayers",
+	
 	"lobby.gadget.ui.title": "{PREFIX} §l§5Gadgets",
 	"lobby.ui.content.select.gadget": "{PREFIX} §eSelect an §5Gadget§7!",
 	
