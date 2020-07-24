@@ -11,7 +11,10 @@
 	"lobby.teleporter.ui.content": "§aSelect an Gametype§7!",
 	"lobby.teleporter.button.bwcw": "§cBedWars §8/§4 ClanWars",
 	
-	"lobby.ui.select.gadget": "{PREFIX} §eSelect an §5Gadget§7!",
+	"lobby.gadget.ui.title": "{PREFIX} §l§5Gadgets",
+	"lobby.ui.content.select.gadget": "{PREFIX} §eSelect an §5Gadget§7!",
+	
+	"lobby.gadget.ui.button.particle": "§eParticle",
 	
 	"maintenance.ui.content": "{PREFIX}\n\n§l§cWe are currently in §eMaintenance§r§7!\n§l§cPlease try it again later§r§7!",
 	"maintenance.join.message": "{PREFIX} §cYou have successfully entered the server during §emaintenance§7!",
