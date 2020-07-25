@@ -90,6 +90,8 @@
 	"pserver.template.already.started": "{PREFIX} §cYou have already created a §eServer§c from this §eServer§7-§eGroup§7!\n§cPlease wait until this §eServer§c has been shut down!",
 	"pserver.sendinfo.to.cloud": "{PREFIX} §aSending info to the §eCloud§7...",
 	"pserver.created.server": "{PREFIX} §aCreated Server §e#0#§7-§e#1# §asuccesfully§7...",
-	"pserver.create.form.content": "{PREFIX} §aCreate your own §eP§8-§eServer§7!"
+	"pserver.create.form.content": "{PREFIX} §aCreate your own §eP§8-§eServer§7!",
+	"pserver.maintenance.enable": "{PREFIX} §eMaintenance Mode for PServer §aenabled§7!",
+	"pserver.maintenance.disable": "{PREFIX} §eMaintenance Mode for PServer §cdisabled§7!"
 	
 }
