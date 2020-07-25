@@ -84,6 +84,11 @@
 	"pserver.title.time.1": "§7●●§e●",
 	"pserver.subtile.create": "§aCreating Server§7!",
 	"pserver.message.created": "{PREFIX} §ePrivate§8-§eServer §acreated§7!",
-	"pserver.message.teleport": "{PREFIX} §aYou will be now transferred§7!"
+	"pserver.message.teleport": "{PREFIX} §aYou will be now transferred§7!",
+	"pserver.form.content": "{PREFIX} §aCreate your own §eP§8-§eServer§7!",
+	"pserver.template.notExists": "{PREFIX} §cThis §ePrivate§7-§eServer Template §cdon't exists§7!",
+	"pserver.template.already.started": "{PREFIX} §cYou have already created a §eServer§c from this §eServer§7-§eGroup§7!\n§cPlease wait until this §eServer§c has been shut down!",
+	"pserver.sendinfo.to.cloud": "{PREFIX} §aSending info to the §eCloud§7...",
+	"pserver.created.server": "{PREFIX} §aCreated Server §e#0#§7-§e#1# §asuccesfully§7..."
 	
 }
