@@ -58,6 +58,14 @@
 	"groups.removed.permission": "{PREFIX} §cYou have removed the permission §e#0# §cfrom the group §e#1# §csuccesfully§7!",
 	"groups.player.notExists": "{PREFIX} §cThis Player don't exists§7!",
 	"groups.player.provide.playerName": "{PREFIX} §cPlease provide an Playername§7!",
-	"groups.player.updatedGroup": "§aThe Player §e#0# §a has now recived the Group §e#1#§7!"
+	"groups.player.updatedGroup": "{PREFIX} §aThe Player §e#0# §ahas now recived the Group §e#1#§7!",
+	
+	"clanwars.bed.destroyed": "{PREFIX} §7The Bed of Team #0# §7was destroyed by§c #1#§7!",
+	"clanwars.destroy.own.bed": "{PREFIX} §cYou can't destroy your own bed§7!",
+	"clanwars.noPlace.spawner": "{PREFIX} §cYou can't place block on Item-Spawners§7!",
+	"clanwars.team.setSpawn": "{PREFIX} §cYou have created the spawn of Team #0#§7!\n§8(§cNext§7: #1# §8)",
+	"clanwars.player.rejoined": "{PREFIX} §7The Player §2#0# §7rejoined the §eClanWars§7!",
+	"clanwars.arena.killed": "{PREFIX} #0##1# §7was killed by #2##3#§7!",
+	"clanwars.arena.died": "{PREFIX} #0##1# §7died!"
 	
 }
