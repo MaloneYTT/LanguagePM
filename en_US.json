@@ -79,5 +79,11 @@
 	"clanwar.queue.notInClan": "{PREFIX} §cYou are not in an Clan§7!",
 	"clanwar.queue.enemyClanFound": "{PREFIX} §7An enemy Clan was found!",
 	
+	"pserver.title.time.3": "§e●§7●●",
+	"pserver.title.time.2": "§7●§e●§7●",
+	"pserver.title.time.1": "§7●●§e●",
+	"pserver.subtile.create": "§aCreating Server§7!",
+	"pserver.message.created": "{PREFIX} §ePrivate§8-§eServer §acreated§7!",
+	"pserver.message.teleport": "{PREFIX} §aYou will be now transferred§7!"
 	
 }
