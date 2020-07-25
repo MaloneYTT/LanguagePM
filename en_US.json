@@ -71,6 +71,13 @@
 	"clanwars.clan.elo.loose": "{PREFIX} §7Your Clan has loose §2#0#§7 elo.",
 	"clanwars.clan.elo.loose": "{PREFIX} §7Your Clan has recived §2#0#§7 elo.",
 	"clanwar.game.started": "{PREFIX} §aThe round has started§7!",
-	"clanwars.game.started.title": "§l§aGood luck§8!"
+	"clanwars.game.started.title": "§l§aGood luck§8!",
+	"clanwar.queue.notEnoughPlayers": "{PREFIX} §7You must be in an Clan-Party with 4 Players!",
+	"clanwar.queue.notClanLeader": "{PREFIX} §cYou are not the §eClan§7-§eLeader§7!",
+	"clanwar.queue.notInParty": "{PREFIX} §7You must be in an Clan-Party!",
+	"clanwar.queue.alreadyInClanWar": "{PREFIX} §cYour §eClan §cis already in an §eClanWar§7!",
+	"clanwar.queue.notInClan": "{PREFIX} §cYou are not in an Clan§7!",
+	"clanwar.queue.enemyClanFound": "{PREFIX} §7An enemy Clan was found!",
+	
 	
 }
