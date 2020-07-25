@@ -66,6 +66,11 @@
 	"clanwars.team.setSpawn": "{PREFIX} §cYou have created the spawn of Team #0#§7!\n§8(§cNext§7: #1# §8)",
 	"clanwars.player.rejoined": "{PREFIX} §7The Player §2#0# §7rejoined the §eClanWars§7!",
 	"clanwars.arena.killed": "{PREFIX} #0##1# §7was killed by #2##3#§7!",
-	"clanwars.arena.died": "{PREFIX} #0##1# §7died!"
+	"clanwars.arena.died": "{PREFIX} #0##1# §7died!",
+	"clanwars.game.won": "{PREFIX} §aYou have won this §eClanWars§7!",
+	"clanwars.clan.elo.loose": "{PREFIX} §7Your Clan has loose §2#0#§7 elo.",
+	"clanwars.clan.elo.loose": "{PREFIX} §7Your Clan has recived §2#0#§7 elo.",
+	"clanwar.game.started": "{PREFIX} §aThe round has started§7!",
+	"clanwars.game.started.title": "§l§aGood luck§8!"
 	
 }
