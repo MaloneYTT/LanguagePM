@@ -7,7 +7,7 @@
 	
 	"lobby.no.perms": "§cYou don't have the permission to use this§7!",
 	
-	"lobby.join.tip": "§8[§a+§8] #0#",
+	"lobby.join.tip": "§8[§a+§8] §e#0#",
 	
 	"lobby.hide.invisible": "{PREFIX} §cAll §ePlayers§c are now §einvisible§7!",
 	"lobby.hide.visible": "{PREFIX} §aAll §ePlayers§a are now §evisible§7!",
