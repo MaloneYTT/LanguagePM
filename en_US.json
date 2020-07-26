@@ -96,6 +96,11 @@
 	
 	"bedwars.setup.setspawn": "{PREFIX} §cYou have created the spawn of Team #0#§7!\n§8(§cNext§7: #1# §8)",
 	"bedwars.place.spawner": "{PREFIX} §cYou can't place block on Item-Spawners§7!",
-	"bedwars.break.own.bed": "{PREFIX} §cYou can't destroy your own bed§7!"
+	"bedwars.break.own.bed": "{PREFIX} §cYou can't destroy your own bed§7!",
+	"bedwars.team.full": "{PREFIX} §cTeam§e #0# §cis already full§7!",
+	"bedwars.team.joined": "{PREFIX} §aYou have joined the§e #0# §ateam§7!",
+	"bedwars.team.cantJoin": "{PREFIX} §cYou can't join the§e #0# §cteam§7!",
+	"bedwars.arena.killed.by": "{PREFIX} #0# §7was killed by #2#§7!",
+	"bedwars.arena.killed.custom": "{PREFIX} #0# §7died!"
 	
 }
