@@ -101,6 +101,15 @@
 	"bedwars.team.joined": "{PREFIX} §aYou have joined the§e #0# §ateam§7!",
 	"bedwars.team.cantJoin": "{PREFIX} §cYou can't join the§e #0# §cteam§7!",
 	"bedwars.arena.killed.by": "{PREFIX} #0# §7was killed by #2#§7!",
-	"bedwars.arena.killed.custom": "{PREFIX} #0# §7died!"
+	"bedwars.arena.killed.custom": "{PREFIX} #0# §7died!",
+	"bedwars.menu.team.name": "{PREFIX} §eChange your §bTeam§7!",
+	"bedwars.gold.button.withGold": "§aWith §6Gold§7!",
+	"bedwars.gold.button.withoutGold": "§cWithout §6Gold§7!",
+	"bedwars.itemdrop.button.withDrop": "§aWith §6Gold§7!",
+	"bedwars.itemdrop.button.withoutDrop": "§cWithout §6Gold§7!",
+	"bedwars.vote.message.withGold": "{PREFIX} §7You want to play with §6Gold§7!",
+	"bedwars.vote.message.withoutGold": "{PREFIX} §7You want to play without §6Gold§7!",
+	"bedwars.vote.message.withDrop": "{PREFIX} §7You want to play with §6Item§7-§6Drop§7!",
+	"bedwars.vote.message.withoutDrop": "{PREFIX} §7You want to play without §6Item§7-§6Drop§7!"
 	
 }
