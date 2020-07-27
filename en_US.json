@@ -3,6 +3,18 @@
 	"localeCode": "en_US",
 	"name": "English",
 	
+	"game.server.isFull": "{PREFIX} §cThis server is currently full§7!",
+	"game.server.nowSpectator": "{PREFIX} §cYou are now Spectator§7!",
+	"game.server.noArena": "{PREFIX} §cNo Game Arena created§7!",
+	"game.server.joined": "{PREFIX} #0# §ahas joined this Server§7!",
+	"game.server.restart.in": "{PREFIX} §7This Server is restarting in §e#0#§7!",
+	"game.hasStarted": "{PREFIX} §aThis round has started§7!",
+	"game.play.onMap": "{PREFIX} §7It is played on the Map §b#0#§7!",
+	"game.server.quit": "{PREFIX} #0# §ahas left this Server§7!",
+	"game.server.isRestarting": "{PREFIX} §cThis Server is already restarting§7!",
+	"game.server.hasStarted": "{PREFIX} §aThis round has started§7!",
+	"game.isPrivate": "{PREFIX} §cYou will not get any §eStats§c and §eCoins§c on this server\n§cas this is a §ePrivate§7-§eServer§7!",
+	
 	"no.perms": "§cYou don't have the permission to use this§7!",
 	
 	"lobby.no.perms": "§cYou don't have the permission to use this§7!",
@@ -110,6 +122,11 @@
 	"bedwars.vote.message.withGold": "{PREFIX} §7You want to play with §6Gold§7!",
 	"bedwars.vote.message.withoutGold": "{PREFIX} §7You want to play without §6Gold§7!",
 	"bedwars.vote.message.withDrop": "{PREFIX} §7You want to play with §6Item§7-§6Drop§7!",
-	"bedwars.vote.message.withoutDrop": "{PREFIX} §7You want to play without §6Item§7-§6Drop§7!"
+	"bedwars.vote.message.withoutDrop": "{PREFIX} §7You want to play without §6Item§7-§6Drop§7!",
+	"bedwars.team.autoJoin": "{PREFIX} §7You are now in Team§e #0#§7!",
+	
+	"cloudsigns.noServer.found": "{PREFIX} §cNo Server was found§7!",
+	"cloudsigns.server.isOffline": "{PREFIX} §cThis server is currently offline§7!",
+	"cloudsigns.server.alreadyIngame": "{PREFIX} §cThis round has already started§7!",
 	
 }
