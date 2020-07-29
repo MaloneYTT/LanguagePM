@@ -1,7 +1,7 @@
 {
-	"PREFIX": "§cRush§4Unity §8»§r",
-	"localeCode": "en_US",
 	"name": "English",
+	"localeCode": "en_US",
+	"PREFIX": "§cRush§4Unity §8»§r",
 	
 	"game.server.isFull": "{PREFIX} §cThis server is currently full§7!",
 	"game.server.nowSpectator": "{PREFIX} §cYou are now Spectator§7!",
