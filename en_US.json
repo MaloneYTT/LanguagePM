@@ -3,6 +3,7 @@
 	"localeCode": "en_US",
 	"PREFIX": "§cRush§4Unity §8»§r",
 	
+	"values": {
 	"game.server.isFull": "{PREFIX} §cThis server is currently full§7!",
 	"game.server.nowSpectator": "{PREFIX} §cYou are now Spectator§7!",
 	"game.server.noArena": "{PREFIX} §cNo Game Arena created§7!",
@@ -128,5 +129,5 @@
 	"cloudsigns.noServer.found": "{PREFIX} §cNo Server was found§7!",
 	"cloudsigns.server.isOffline": "{PREFIX} §cThis server is currently offline§7!",
 	"cloudsigns.server.alreadyIngame": "{PREFIX} §cThis round has already started§7!",
-	
+	}
 }
