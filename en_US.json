@@ -1,9 +1,12 @@
 {
-	"name": "English",
-	"localeCode": "en_US",
 	"PREFIX": "§cRush§4Unity §8»§r",
+	"localeCode": "en_US",
+	"name": "English",
 	
-	"values": {
+	"player.not.exists": "{PREFIX} §cThis player don't exists§7!",
+	
+	"message.cantSelectYourself": "{PREFIX} §cYou can't select yourself§7!",
+	
 	"game.server.isFull": "{PREFIX} §cThis server is currently full§7!",
 	"game.server.nowSpectator": "{PREFIX} §cYou are now Spectator§7!",
 	"game.server.noArena": "{PREFIX} §cNo Game Arena created§7!",
@@ -28,7 +31,8 @@
 	"lobby.teleporter.ui.title": "{PREFIX} §l§6Teleporter",
 	"lobby.teleporter.ui.content": "{PREFIX} §aSelect an Gametype§7!",
 	
-	"lobby.teleporter.button.bwcw": "§cBedWars §8/§4 ClanWars",
+	"lobby.teleporter.button.spawn": "§l§7Spawn",
+	"lobby.teleporter.button.bw": "§cBedWars",
 	
 	"lobby.hide.ui.title": "{PREFIX} §l§ePlayer§7-§eHider",
 	"lobby.hide.ui.content": "{PREFIX} §cHide §7or §aShow §7all §ePlayers§7!",
@@ -43,9 +47,18 @@
 	
 	"lobby.gadget.ui.title": "{PREFIX} §l§5Gadgets",
 	"lobby.ui.content.select.gadget": "{PREFIX} §eSelect an §5Gadget§7!",
-	"lobby.gadget.ui.button.particle": "§eParticle",
+	"lobby.gadget.ui.button.particle": "§dParticle",
+	"lobby.gadget.ui.button.fly": "§eFly",
 	
 	"lobby.gadgets.title.particles": "{PREFIX} §eParticles",
+	
+	"lobby.fly.ui.title": "{PREFIX} §l§eFly",
+	"lobby.ui.content.select.fly.mode": "{PREFIX} §eToggle the §aFly§7-§aMode§7!",
+	"lobby.fly.ui.button.enable": "§aEnable §eFly",
+	"lobby.fly.ui.button.disable": "§cDisable §eFly",
+	
+	"lobby.enable.fly": "{PREFIX} §aYou have enabled the §eFly§7-§eMode§7!",
+	"lobby.disable.fly": "{PREFIX} §cYou have disabled the §eFly§7-§eMode§7!",
 	
 	"maintenance.ui.content": "{PREFIX}\n\n§l§cWe are currently in §eMaintenance§r§7!\n§l§cPlease try it again later§r§7!",
 	"maintenance.join.message": "{PREFIX} §cYou have successfully entered the server during §emaintenance§7!",
@@ -82,7 +95,7 @@
 	"clanwars.arena.died": "{PREFIX} #0##1# §7died!",
 	"clanwars.game.won": "{PREFIX} §aYou have won this §eClanWars§7!",
 	"clanwars.clan.elo.loose": "{PREFIX} §7Your Clan has loose §2#0#§7 elo.",
-	"clanwars.clan.elo.loose": "{PREFIX} §7Your Clan has recived §2#0#§7 elo.",
+	"clanwars.clan.elo.win": "{PREFIX} §7Your Clan has recived §2#0#§7 elo.",
 	"clanwar.game.started": "{PREFIX} §aThe round has started§7!",
 	"clanwars.game.started.title": "§l§aGood luck§8!",
 	"clanwar.queue.notEnoughPlayers": "{PREFIX} §7You must be in an Clan-Party with 4 Players!",
@@ -113,7 +126,7 @@
 	"bedwars.team.full": "{PREFIX} §cTeam§e #0# §cis already full§7!",
 	"bedwars.team.joined": "{PREFIX} §aYou have joined the§e #0# §ateam§7!",
 	"bedwars.team.cantJoin": "{PREFIX} §cYou can't join the§e #0# §cteam§7!",
-	"bedwars.arena.killed.by": "{PREFIX} #0# §7was killed by #2#§7!",
+	"bedwars.arena.killed.by": "{PREFIX} #0# §7was killed by #1#§7!",
 	"bedwars.arena.killed.custom": "{PREFIX} #0# §7died!",
 	"bedwars.menu.team.name": "{PREFIX} §eChange your §bTeam§7!",
 	"bedwars.gold.button.withGold": "§aWith §6Gold§7!",
@@ -125,9 +138,41 @@
 	"bedwars.vote.message.withDrop": "{PREFIX} §7You want to play with §6Item§7-§6Drop§7!",
 	"bedwars.vote.message.withoutDrop": "{PREFIX} §7You want to play without §6Item§7-§6Drop§7!",
 	"bedwars.team.autoJoin": "{PREFIX} §7You are now in Team§e #0#§7!",
+	"bedwars.arena.destroyBed": "§7The bed of team #0#§7 was destroyed by §e#1#§7!",
+	"bedawars.area.bedNotExists": "§cThis Team don't exists§7!\n§cTherefore no coins were credited to you§7!",
 	
 	"cloudsigns.noServer.found": "{PREFIX} §cNo Server was found§7!",
 	"cloudsigns.server.isOffline": "{PREFIX} §cThis server is currently offline§7!",
 	"cloudsigns.server.alreadyIngame": "{PREFIX} §cThis round has already started§7!",
-	}
+	
+	"coins.player.giveCoins": "{PREFIX} §7You gave the Player §2{$player->getName()} §e{$geld}§2 Coins§7!",
+	"coins.give.provideNumber": "{PREFIX} §cPlease provide an number§7!",
+	"coins.give.notNull": "{PREFIX} §cProvide an number higher then §e0§7!",
+	"coins.money.see": "{PREFIX} §eYour §aCoins§7:§e #0#§8!",
+	"coins.setMoney.message": "{PREFIX} §7Your coins have been changed from §2#0#§7 to §e#1#§2 Coins§7!",
+	"coins.setMoney.need": "{PREFIX} §7You need at least §e{$money}§2 Coins§7!",
+	
+	"securitysystem.youCannotBanBypass": "{PREFIX} §cYou can't ban §e#0#§7!",
+	"securitysystem.banWasSuccessfull": "{PREFIX} §aYou have banned §e#0# §abecasue of #1#§7!",
+	"securitysystem.youCannotMuteBypass": "{PREFIX} §cYou can't mute §e#0#§7!",
+	"securitysystem.muteWasSuccessfull": "{PREFIX} §aYou have muted §e#0# §abecasue of §e#1#§7!",
+	"securitysystem.reportWasSuccessful": "{PREFIX} §aYou have reported §e#0# §abecasue of §e#1#§7!",
+	"securitysystem.playerWasUnbanned": "{PREFIX} §e#0#§a was unbanned§7!",
+	"securitysystem.playerWasUnmuted": "{PREFIX} §e#0#§a was unmuted§7!",
+	"securitysystem.muted.automatic": "{PREFIX} §cYou are muted§7!\n§aDuration§7: §e#0#\n§aReason§7: §e#1#",
+	"securitysystem.muted.permanent": "{PREFIX} §cYou are muted§7!\n§aMuted by§7: §e#0#\n§aReason§7: §e#1#",
+	"securitysystem.muted.until": "{PREFIX} §cYou are muted§7!\n§aMuted by§7: §e#0#\n§aDuration§7: §e#1#\n§aReason§7: §e#2#",
+	"securitysystem.banned.automatic": "{PREFIX} §4You was banned§7!\n§cBanned by§7:§e #0#\n§cReason§7:§e #1#\n§cDuration§7:§e #2#",
+	"securitysystem.banned.permanent": "{PREFIX} §4You was banned§7!\n§cBanned by§7:§e #0#\n§cReason§7:§e #1#",
+	"securitysystem.banned.until": "{PREFIX} §4You was banned§7!\n§cBanned by§7:§e #0#\n§cReason§7:§e #1#\n§cDuration§7:§e #2#",
+	"securitysystem.playerNotBanned": "{PREFIX} §cThis player is not banned§7!",
+	"securitysystem.playerNotMuted": "{PREFIX} §cThis player is not muted§7!",
+	"securitysystem.youAreUnmuted.mistake": "{PREFIX} §aYour mute was removed because a §cmistake §awas made§7!",
+	"securitysystem.youAreUnmuted": "{PREFIX} §aYou are no longer muted§7!",
+	"securitysystem.noSpam": "{PREFIX} §cPlease don't spam§7!",
+	"securitysystem.provideKickReason": "{PREFIX} §cPlease provide a reason§7!",
+	"securitysystem.cantKickYourself": "{PREFIX} §cYou can't kick yourself§7!",
+	"securitysystem.kickedPlayer": "{PREFIX} §aYou have kicked §e#0#§a because of §e#1#§7!",
+	"securitysystem.noAds": "{PREFIX} §cPlease don't send Links§7!"
+	
 }
