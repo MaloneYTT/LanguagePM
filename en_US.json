@@ -7,6 +7,8 @@
 	
 	"message.cantSelectYourself": "{PREFIX} §cYou can't select yourself§7!",
 	
+	"game.hasWon": "{PREFIX} §aYou have won this §eGame§7!",
+	"game.hasLose": "{PREFIX} §cYou have lose this §eGame§7!",
 	"game.server.isFull": "{PREFIX} §cThis server is currently full§7!",
 	"game.server.nowSpectator": "{PREFIX} §cYou are now Spectator§7!",
 	"game.server.noArena": "{PREFIX} §cNo Game Arena created§7!",
@@ -139,7 +141,15 @@
 	"bedwars.vote.message.withoutDrop": "{PREFIX} §7You want to play without §6Item§7-§6Drop§7!",
 	"bedwars.team.autoJoin": "{PREFIX} §7You are now in Team§e #0#§7!",
 	"bedwars.arena.destroyBed": "§7The bed of team #0#§7 was destroyed by §e#1#§7!",
-	"bedawars.area.bedNotExists": "§cThis Team don't exists§7!\n§cTherefore no coins were credited to you§7!",
+	"bedawars.arena.bedNotExists": "§cThis Team don't exists§7!\n§cTherefore no coins were credited to you§7!",
+	
+	"mlgrush.allArenasFull": "{PREFIX} §cAll arenas are full§7!\n§cTry it again later§7!",
+	"mlgrush.winBlue": "{PREFIX} §aThe Team §1BLUE §ahas won§7!",
+	"mlgrush.winRed": "{PREFIX} §aThe Team §4RED §ahas won§7!",
+	"mlgrush.joinedQueue": "{PREFIX} §aYou have joined the §eQueue§7!",
+	"mlgrush.leftQueue": "{PREFIX} §cYou have left the §eQueue§7!",
+	"mlgrush.challengedPlayer": "{PREFIX} §aYou have §echallenged§r #0#§7!",
+	"mlgrush.challengedBy": "{PREFIX} §aYou have been §echallenged§a by§r #0#§7!",
 	
 	"cloudsigns.noServer.found": "{PREFIX} §cNo Server was found§7!",
 	"cloudsigns.server.isOffline": "{PREFIX} §cThis server is currently offline§7!",
