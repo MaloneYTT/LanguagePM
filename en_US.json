@@ -154,6 +154,7 @@
 	"cloudsigns.noServer.found": "{PREFIX} §cNo Server was found§7!",
 	"cloudsigns.server.isOffline": "{PREFIX} §cThis server is currently offline§7!",
 	"cloudsigns.server.alreadyIngame": "{PREFIX} §cThis round has already started§7!",
+	"cloudsigns.server.isFull": "{PREFIX} §cThis Server is full§7!",
 	
 	"coins.player.giveCoins": "{PREFIX} §7You gave the Player §2{$player->getName()} §e{$geld}§2 Coins§7!",
 	"coins.give.provideNumber": "{PREFIX} §cPlease provide an number§7!",
